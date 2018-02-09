@@ -12,4 +12,9 @@
 ```diff
 + $ dotnet restore && (dotnet build | dotnet run)
 ```
-#### Check API using Postman or other tool
+#### Check the service using Postman or other tool
+
+#### POST method generating token for hardcoded credentials 
+![Screenshot](POST.png)
+#### GET method response payload
+![Screenshot](GET.png)
