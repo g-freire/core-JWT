@@ -1,0 +1,5 @@
+/Users/gf/Desktop/jwt
+--output-path=obj/Release/netcoreapp2.0/
+--application-name=NetCoreJWTAuth.App
+--content-root=/Users/gf/Desktop/jwt
+--file=

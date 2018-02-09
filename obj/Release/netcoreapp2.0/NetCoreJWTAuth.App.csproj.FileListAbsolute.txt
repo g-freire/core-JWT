@@ -1,0 +1,10 @@
+/Users/gf/Desktop/jwt/bin/Release/netcoreapp2.0/NetCoreJWTAuth.App.deps.json
+/Users/gf/Desktop/jwt/bin/Release/netcoreapp2.0/NetCoreJWTAuth.App.runtimeconfig.json
+/Users/gf/Desktop/jwt/bin/Release/netcoreapp2.0/NetCoreJWTAuth.App.runtimeconfig.dev.json
+/Users/gf/Desktop/jwt/bin/Release/netcoreapp2.0/NetCoreJWTAuth.App.dll
+/Users/gf/Desktop/jwt/bin/Release/netcoreapp2.0/NetCoreJWTAuth.App.pdb
+/Users/gf/Desktop/jwt/obj/Release/netcoreapp2.0/NetCoreJWTAuth.App.csproj.CoreCompileInputs.cache
+/Users/gf/Desktop/jwt/obj/Release/netcoreapp2.0/NetCoreJWTAuth.App.AssemblyInfoInputs.cache
+/Users/gf/Desktop/jwt/obj/Release/netcoreapp2.0/NetCoreJWTAuth.App.AssemblyInfo.cs
+/Users/gf/Desktop/jwt/obj/Release/netcoreapp2.0/NetCoreJWTAuth.App.dll
+/Users/gf/Desktop/jwt/obj/Release/netcoreapp2.0/NetCoreJWTAuth.App.pdb
