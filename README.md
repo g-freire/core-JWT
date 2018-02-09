@@ -1,5 +1,5 @@
 # ASP.NET Core 2 JWT API
-###Steps to run:
+## Steps to run:
 ### Using Docker:
 ```diff
 + $ docker build -t aspnetapp .
