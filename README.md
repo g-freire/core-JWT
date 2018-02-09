@@ -16,8 +16,8 @@
 #
 #### Check the service using Postman or your prefered tool:
 
-#### POST method generating token for hardcoded credentials 
+#### POST method generating token payload for hardcoded credentials 
 ![Screenshot](POST.png)
 #
-#### GET method response payload
+#### GET method response payload using generated token in the authorization header
 ![Screenshot](GET.png)
