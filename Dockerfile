@@ -13,4 +13,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "NetCoreJWTAuth.App.dll"]
 
-LABEL maintainer="https://github.com/g-freire"
+LABEL maintainer="gustavomfreire@gmail.com"
