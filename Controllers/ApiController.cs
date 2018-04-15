@@ -31,7 +31,7 @@ namespace NetCoreJWTAuth.App.Controllers
         [HttpPost]
         public IActionResult RequestToken([FromBody] TokenRequest request)
         {
-            if (request.Username == "gf" && request.Password == "gf")
+            if (request.Username == "changeme" && request.Password == "changeme")
             {
                 var claims = new[]
                 {
