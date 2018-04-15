@@ -24,7 +24,7 @@ namespace NetCoreJWTAuth.App.Controllers
         [HttpGet("Test")]
         public IActionResult Test()
         {
-            return Ok(" Your secret content");
+            return Ok(" Your protected information");
         }
 
         [AllowAnonymous]
@@ -42,8 +42,8 @@ namespace NetCoreJWTAuth.App.Controllers
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var token = new JwtSecurityToken(
-                    issuer: "yourdomain.com",
-                    audience: "yourdomain.com",
+                    issuer: "somedomain.com",
+                    audience: "somedomain.com",
                     claims: claims,
                     expires: DateTime.Now.AddMinutes(30),
                     signingCredentials: creds);
