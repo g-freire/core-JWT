@@ -24,7 +24,7 @@ namespace NetCoreJWTAuth.App.Controllers
         [HttpGet("Test")]
         public IActionResult Test()
         {
-            return Ok(" Your protected information");
+            return Ok("Your protected information");
         }
 
         [AllowAnonymous]
