@@ -37,7 +37,7 @@ namespace NetCoreJWTAuth.App.Controllers
                 {
                     new Claim(ClaimTypes.Name, request.Username)
                 };
-                // symmetric security key and crypto hash function
+                // encryption rules
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecurityKey"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
                 // token specs
