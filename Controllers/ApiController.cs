@@ -24,7 +24,7 @@ namespace NetCoreJWTAuth.App.Controllers
         [HttpGet("Test")]
         public IActionResult Test()
         {
-            return Ok("Your protected information");
+            return Ok("Your protected data");
         }
 
         [AllowAnonymous]
@@ -40,7 +40,7 @@ namespace NetCoreJWTAuth.App.Controllers
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecurityKey"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
+                // token payload
                 var token = new JwtSecurityToken(
                     issuer: "somedomain.com",
                     audience: "somedomain.com",
