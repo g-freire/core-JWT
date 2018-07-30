@@ -1,4 +1,6 @@
 # ASP.NET Core 2 JWT API
+ [![Docker Build](https://img.shields.io/docker/build/pierrezemb/gostatic.svg?style=plastic)](https://hub.docker.com/r/gfreire)
+ [![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
 ## Steps to run:
 ### Using Docker:
 ```diff
